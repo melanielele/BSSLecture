@@ -5,7 +5,7 @@
 
 ### Question 1
 #### Part A
-[https://github.com/melanielele/BSSLecture/blob/main/Q1a.png]
+(https://github.com/melanielele/BSSLecture/blob/main/Q1a.png)
 #### Part B
 [Your report]
 #### Part C
