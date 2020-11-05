@@ -44,4 +44,6 @@ Eye movements is one of the major contamination of EEG data interpretation, a lo
 In this paper, the author proposed a blind source separation method using independent component analysis(ICA).  ICA is an algorithm to recover independent source signals when given linearly mixed unknown matrix. There are several assumptions regarding ICA's performance, in EEG signals, we know that multichannel EEG recordsing are linear mixture of brain signals and artifactual signals. also, time courses of the sources are independent. so ICA will be suitable to apply to EEG signals. In this study, ICA decomposition was performed on 10-s EEG epochs from three different EEG data. The algorithm derives spatial filters that decompose EEG data
 recorded at multiple scalp sensors into a sum of components with fixed scalp distributions and maximally independent time courses. Compared to the result of PCA and SVD, the principal components derived by them have more complex spatial patterns, however, ICA does not impose any condition on the spatial filters. 
 
+Pseudocode is not applicable to this paper because it just simply apply ICA decomposition to the EEG dataset. Analysis of the ICA performance versus PCA and SVD is the topic of this paper. But author mentioned the initial learning rate and batch size in the paper.
+
 
