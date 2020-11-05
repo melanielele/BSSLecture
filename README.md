@@ -32,5 +32,11 @@ symmetric ('symm'),which estimates all the independent component in parallel, or
 #### Ex04_testEOGArtifactRemoval.m
 This script is a practical application for BSS that we want to remove EOG Artifact from EEG data. Two algorithm is implemented here, JADE and NSCA(Negative Selection Classification Algorithm). 
 
+
 #### Ex05_testFetalECGExtraction.m
 run testICAPiCAAfterMECGCancellation for this part. This is a function to apply ICA and Pi-CA after maternal ECG removal, and the GUI popped up is a ECG beat fitter GUI
+
+### Question 4
+
+#### Removing electroencephalographic artifacts
+by blind source separation
