@@ -20,6 +20,7 @@ for k = 1 : Itr
     set(0, 'CurrentFigure', f2)
     %figure(2)
     plot(v);
+    title("Principle  Vector")
     hold on;
     v = v / sqrt(v' * v);
 end
