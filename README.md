@@ -40,7 +40,8 @@ run testICAPiCAAfterMECGCancellation for this part. This is a function to apply 
 
 #### Removing electroencephalographic artifacts by blind source separation
 
-Eye movements is one of the major contamination of EEG data interpretation, a lot of researches were conducted on removing artifacts from EEG recording. Some popular methods such as regression and PCA were proposed before, however, there are still some limitations about these methods. Regression will also removing relevant EEG signals when removing eye artifacts. 
-and PCA cannot completely remove eye artifacts when brain signals and eye siganls are having comparable amplitudes. 
+Eye movements is one of the major contamination of EEG data interpretation, a lot of researches were conducted on removing artifacts from EEG recording. Some popular methods such as regression and PCA were proposed before, however, there are still some limitations about these methods. Regression will also removing relevant EEG signals when removing eye artifacts, and PCA cannot completely remove eye artifacts when brain signals and eye siganls are having comparable amplitudes. 
+In this paper, the author proposed a blind source separation method using independent component analysis(ICA).  ICA is an algorithm to recover independent source signals when given linearly mixed unknown matrix. There are several assumptions regarding ICA's performance, in EEG signals, we know that multichannel EEG recordsing are linear mixture of brain signals and artifactual signals. also, time courses of the sources are independent. so ICA will be suitable to apply to EEG signals. In this study, ICA decomposition was performed on 10-s EEG epochs from three different EEG data. The algorithm derives spatial filters that decompose EEG data
+recorded at multiple scalp sensors into a sum of components with fixed scalp distributions and maximally independent time courses. Compared to the result of PCA and SVD, the principal components derived by them have more complex spatial patterns, however, ICA does not impose any condition on the spatial filters. 
 
 
