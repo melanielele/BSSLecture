@@ -90,5 +90,5 @@ for ch = 1 : N
 end
 
 % Run the following script from the OSET package for a more advanced method
-testEOGRemoval
+%testEOGRemoval
 

@@ -31,10 +31,11 @@ symmetric ('symm'),which estimates all the independent component in parallel, or
 
 #### Ex04_testEOGArtifactRemoval.m
 This script is a practical application for BSS that we want to remove EOG Artifact from EEG data. Two algorithm is implemented here, JADE and NSCA(Negative Selection Classification Algorithm). 
+Channel denoised by JADE and NSCA are plotted respectively. We can clearly see that there are some subtle difference between the results of JADE and NSCA when the raw channel siganl is different,especially for some particular channels like eog1,eog2,eog3. however at a high level comparison, the deniosed channel looks similar.
 
 
 #### Ex05_testFetalECGExtraction.m
-run testICAPiCAAfterMECGCancellation for this part. This is a function to apply ICA and Pi-CA after maternal ECG removal, and the GUI popped up is a ECG beat fitter GUI
+Run testICAPiCAAfterMECGCancellation for this part. This is a function to apply ICA and Pi-CA after maternal ECG removal, and the GUI popped up is a ECG beat fitter GUI.
 
 ### Question 4
 
