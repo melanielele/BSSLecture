@@ -28,3 +28,9 @@ dominant eigenvectors of A. The Rayleigh quotient is the corresponding eigenvalu
 This script test the performance of different methods on ICA(fastICA, JADE,SOBI). FastICA estimates the independent components from given
 multidimensional signals, it uses Hyvarinen's fixed-point algorithm. Here in the script, we have different parameters to choose from. The decorrelation approach can be chosen from 
 symmetric ('symm'),which estimates all the independent component in parallel, or deflation ('defl'), which estimates independent component one-by-one like in projection pursuit.And the nonlinearity can be chosen from 'pow3', 'tanh', 'gauss', 'skew'. For SOBI and JADE, we set number of sources as the channel number. 
+
+#### Ex04_testEOGArtifactRemoval.m
+This script is a practical application for BSS that we want to remove EOG Artifact from EEG data. Two algorithm is implemented here, JADE and NSCA(Negative Selection Classification Algorithm). 
+
+#### Ex05_testFetalECGExtraction.m
+run testICAPiCAAfterMECGCancellation for this part. This is a function to apply ICA and Pi-CA after maternal ECG removal, and the GUI popped up is a ECG beat fitter GUI
