@@ -14,5 +14,6 @@
 #### Using Power Method to calculate the eigenvalues
 lambda = 4.6180
 #### Part B
-
+![Q2a](https://github.com/melanielele/BSSLecture/blob/main/eigenvalue.png)
+![Q2b](https://github.com/melanielele/BSSLecture/blob/main/Principal%20Vector.png)
   
