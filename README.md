@@ -22,5 +22,9 @@ This script using Principle Component Analysis to computing the principal compon
 
 #### Ex02_testEigenAnalysisPowerMethod.m
 This is the script for Eigenvalue decomposition using the power method. The power method for approximating eigenvalues is iterative. First we assume that the matrix A has a dominant eigenvalue with corresponding dominant eigenvectors. Then we choose an initial approximation of one of the
-dominant eigenvectors of A. The Rayleigh quotient is the corresponding eigenvalue.Here I changed matrix from 3*3 to 4*4. We can also change the iteration stop condition to error less than some defined threshold. In that way we don't need to specify the iteration time but rather give the threshold. 
+dominant eigenvectors of A. The Rayleigh quotient is the corresponding eigenvalue.Here I changed matrix from 3*3 to 4*4. We can also change the iteration stop condition to be the error(previous eigenvalue minus this iteration's eigenvalue) to see if it converges. In that way we don't need to specify the iteration time but rather give the threshold. 
   
+#### Ex03_testICAmethods.m
+This script test the performance of different methods on ICA(fastICA, JADE,SOBI). FastICA estimates the independent components from given
+multidimensional signals, it uses Hyvarinen's fixed-point algorithm. Here in the script, we have different parameters to choose from. The decorrelation approach can be chosen from 
+symmetric ('symm'),which estimates all the independent component in parallel, or deflation ('defl'), which estimates independent component one-by-one like in projection pursuit.And the nonlinearity can be chosen from 'pow3', 'tanh', 'gauss', 'skew'. For SOBI and JADE, we set number of sources as the channel number. 
