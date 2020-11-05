@@ -18,5 +18,7 @@ lambda = 4.6180
 ![Q2b](https://github.com/melanielele/BSSLecture/blob/main/Principal%20Vector.png)
 ###  Question 3
 #### Ex01_testPCA.m
+This script using Principle Component Analysis to computing the principal components. I changed the data from example 1 to 2 to test this script on the ECG signal data. Firstly removed the lowpass basline of the original ECG data, and then get the eigenvalue and eigenvectors of the covariance matrix of the input data. After that, decorrelate the channel and find out the partial energy for each eigenvalue. Finally set up a threshold and keep the most important eigenvalues.For the ECG data, we keep 5 eigenvalues and ignore 10 other eigenvalues. And the compressed version of the data is in a uniform axis.
 
+#### 
   
