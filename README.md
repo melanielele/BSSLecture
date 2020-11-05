@@ -38,5 +38,9 @@ run testICAPiCAAfterMECGCancellation for this part. This is a function to apply 
 
 ### Question 4
 
-#### Removing electroencephalographic artifacts
-by blind source separation
+#### Removing electroencephalographic artifacts by blind source separation
+
+Eye movements is one of the major contamination of EEG data interpretation, a lot of researches were conducted on removing artifacts from EEG recording. Some popular methods such as regression and PCA were proposed before, however, there are still some limitations about these methods. Regression will also removing relevant EEG signals when removing eye artifacts. 
+and PCA cannot completely remove eye artifacts when brain signals and eye siganls are having comparable amplitudes. 
+
+
