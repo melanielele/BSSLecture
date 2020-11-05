@@ -16,4 +16,7 @@ lambda = 4.6180
 #### Part B
 ![Q2a](https://github.com/melanielele/BSSLecture/blob/main/eigenvalue.png)
 ![Q2b](https://github.com/melanielele/BSSLecture/blob/main/Principal%20Vector.png)
+###  Question 3
+#### Ex01_testPCA.m
+
   
